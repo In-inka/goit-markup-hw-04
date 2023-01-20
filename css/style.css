@@ -182,10 +182,12 @@ img {
   padding-bottom: 188px;
   margin: auto;
   text-align: center;
+  background-color: var(--border-color);
 
-  background-image: var(--gra), url(/images/bg/people-office.jpg);
+  background-image: var(--gra), url(../images/bg/people-office.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+  flex-grow: 1;
 }
 .hero-title {
   margin: 0 auto;
