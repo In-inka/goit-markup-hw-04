@@ -187,7 +187,6 @@ img {
   background-image: var(--gra), url(../images/bg/people-office.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  flex-grow: 1;
 }
 .hero-title {
   margin: 0 auto;
