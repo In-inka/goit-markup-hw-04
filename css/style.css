@@ -460,8 +460,10 @@ img {
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08);
   border-top: transparent;
 }
-
-.main-item:is(:hover, :focus) {
+.main-item-link {
+  display: inline-block;
+}
+.main-item-link:is(:hover, :focus) {
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
   cursor: pointer;
@@ -474,7 +476,7 @@ img {
     0px 2px 2px rgba(0, 0, 0, 0.12);
   border-color: transparent;
 }
-.main-list > .main-item {
+.main-item-link {
   flex-basis: calc((100% - 48px) / 3);
 }
 .main-subtitle {
