@@ -369,6 +369,7 @@ img {
 .footer-flex {
   display: flex;
   gap: 120px;
+  align-items: baseline;
 }
 .footer-logo {
   margin-bottom: 16px;
